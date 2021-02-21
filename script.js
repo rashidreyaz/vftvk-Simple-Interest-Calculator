@@ -11,7 +11,7 @@ function compute()
     years = document.getElementById("years").value;
 
     // Validataion for Principal to be a positive number
-    if(principal.value<=0) {
+    if(principal<=0) {
         alert("Enter a positive number");
         principal.focus();
     }
