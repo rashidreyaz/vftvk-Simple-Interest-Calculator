@@ -13,7 +13,7 @@ function compute()
     // Validataion for Principal to be a positive number
     if(principal<=0) {
         alert("Enter a positive number");
-        principal.focus();
+        document.getElementById("principal").focus();
     }
     else {
         curr_year=new Date().getFullYear();
