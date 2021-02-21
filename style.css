@@ -10,7 +10,7 @@ h1{ color:grey;
 .maindiv{
     background-color: white;
     color:  black;
-    width:300px;
+    width:330px;
     padding:20px;
     border-radius:25px;
     margin: 0 auto;
@@ -24,6 +24,8 @@ label{
     display:inline-block;
     width:90px; 
     text-align:left;
+    margin-left: 20px;
 }
+
 
 
