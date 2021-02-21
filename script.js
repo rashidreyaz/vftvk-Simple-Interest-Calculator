@@ -1,6 +1,6 @@
 // Set value of Range slider
 function displayRange(){
-    document.getElementById("range_val").innerHTML=rate.value;
+    document.getElementById("range_val").innerHTML=document.getElementById("rate").value;
 }
 
 // Compute interest
